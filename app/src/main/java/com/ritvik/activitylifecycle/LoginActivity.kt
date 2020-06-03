@@ -50,6 +50,7 @@ class LoginActivity : AppCompatActivity() {
 
             val intent = Intent(this@LoginActivity,MessageActivity::class.java)
             intent.putExtra("Name",message)
+
             startActivity(intent)
         }
 
